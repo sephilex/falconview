@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How FalconView handles your Frigate connection, optional notifications, and privacy choices.">
+  <title>Privacy Policy · FalconView</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="alternate" hreflang="zh-Hans" href="../zh/privacy/">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header><a class="brand" href="../">FalconView</a><nav aria-label="Pages"><a href="../support/">Support</a><a href="../zh/privacy/" lang="zh-Hans">中文</a></nav></header>
+  <main id="main">
+    <p class="eyebrow">UPDATED OCTOBER 2, 2026</p>
+    <h1>Privacy Policy</h1>
+    <p class="intro">FalconView for Frigate connects your iPhone to the Frigate server you choose. Here is how connection details and optional notifications are handled, and how you can manage them.</p>
+    <div class="highlights" aria-label="At a glance">
+      <div class="highlight"><strong>Video from your server</strong><span>Live video and recordings are fetched directly from your Frigate.</span></div>
+      <div class="highlight"><strong>Notifications by choice</strong><span>The relay delivers the push notifications you set up.</span></div>
+      <div class="highlight"><strong>No advertising tracking</strong><span>We do not sell your data or use it for advertising.</span></div>
+    </div>
+    <section>
+      <h2>Your Frigate connection</h2>
+      <p>Server addresses and preferences are stored on your device. Passwords and login sessions are protected by the iOS Keychain and used to authenticate with your Frigate. These credentials are not sent to our notification relay.</p>
+      <p>Live video, audio, snapshots, recordings, searches and exports are requested from your selected server. Previews and downloaded media may be cached on your device. Saving or sharing a file is an action you choose; files saved to Photos or Files are managed there. Your Frigate server and its administrator control the original recordings and server-side retention.</p>
+    </section>
+    <section>
+      <h2>If you turn on notifications</h2>
+      <p>Our relay and Apple’s push notification service deliver alerts from your Frigate. The relay stores installation and subscription identifiers, a device notification token, Apple app verification information, and settings needed to route those alerts. Notification tokens and delivery credentials are encrypted in storage.</p>
+      <p>Your Frigate sends notification content to the relay, which decrypts it to prepare a notification for Apple. This can include a title, message, camera name, event or review identifier, and a thumbnail reference. Your device fetches notification images directly from your Frigate or the image service referenced in the notification.</p>
+      <p>Connection and delivery records, such as IP addresses, timestamps, delivery status and errors, support security and troubleshooting. This information is used to operate and protect the notification service, rather than for advertising or cross-app tracking.</p>
+    </section>
+    <section>
+      <h2>Keeping and removing information</h2>
+      <p>Local connection details remain until you remove the saved server or clear them through the app. Signing out clears the active login session. Removing a connection does not delete recordings from your Frigate or files you have saved elsewhere.</p>
+      <p>The relay keeps notification content encrypted while it is waiting for delivery, and clears that content when delivery finishes or its subscription is revoked. Installation, subscription and delivery metadata can remain afterwards; there is currently no fixed automatic deletion schedule for all of these records.</p>
+      <p>Turning off receiving pauses delivery. Events your Frigate continues sending can still be received and logged while delivery is paused. Signing out or removing a server requests revocation of its app subscription; if the network is unavailable, cleanup may remain pending until it can be retried. These actions do not remove every historical record or the registration on your Frigate server, or recall notifications Apple has already received. Your server administrator can remove its registration to stop sending events.</p>
+      <p>Contact us to request access to, correction of, or deletion of relay information associated with your installation. We will verify the request and explain any records that still need to be kept for security or legal reasons.</p>
+    </section>
+    <section>
+      <h2>Services involved</h2>
+      <p>Data needed for a selected feature is processed by your Frigate server, any image provider referenced in a notification, our notification hosting provider, and Apple’s notification and app verification services. These services may operate outside your country. We use them to provide and secure the feature; we do not share this information with advertising networks or data brokers.</p>
+      <p>This website is hosted on GitHub Pages. We add no analytics scripts or cookies to it. GitHub may process technical access information, including IP addresses, under its <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">privacy statement</a>. Apple’s handling of its services is described in its <a href="https://www.apple.com/legal/privacy/">privacy policy</a>.</p>
+    </section>
+    <section>
+      <h2>Your choices and contact</h2>
+      <p>You can use the app without enabling push notifications. Manage receiving in Settings, notification permissions and lock-screen previews in iOS Settings, saved connections in the app, and media or registrations on your Frigate with its administrator.</p>
+      <p>For support or privacy requests, contact the app’s developer, Sephilex, at the address below. Messages you send are used to respond and follow up on your request and may be retained with that correspondence. Please avoid sending passwords, tokens or camera footage unless needed and specifically requested.</p>
+      <div class="contact"><a href="mailto:sephilex@gmail.com">sephilex@gmail.com</a> · <a href="../support/">Support and privacy requests</a></div>
+    </section>
+    <section>
+      <h2>About this policy</h2>
+      <p>This policy covers FalconView for Frigate and its notification relay. It does not replace your Frigate administrator’s policies. We will update this page and its date when our handling of information changes.</p>
+    </section>
+  </main>
+  <footer><p>FalconView for Frigate · Privacy Policy</p><a href="../zh/privacy/" lang="zh-Hans">中文版</a></footer>
+</body>
+</html>
