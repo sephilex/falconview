@@ -12,7 +12,7 @@
   <a class="skip" href="#main">Skip to content</a>
   <header><a class="brand" href="../">FalconView</a><nav aria-label="Pages"><a href="../support/">Support</a><a href="../zh/privacy/" lang="zh-Hans">中文</a></nav></header>
   <main id="main">
-    <p class="eyebrow">UPDATED OCTOBER 2, 2026</p>
+    <p class="eyebrow">UPDATED OCTOBER 20, 2026</p>
     <h1>Privacy Policy</h1>
     <p class="intro">FalconView for Frigate connects your iPhone to the Frigate server you choose. Here is how connection details and optional notifications are handled, and how you can manage them.</p>
     <div class="highlights" aria-label="At a glance">
@@ -30,6 +30,12 @@
       <p>Our relay and Apple’s push notification service deliver alerts from your Frigate. The relay stores installation and subscription identifiers, a device notification token, Apple app verification information, and settings needed to route those alerts. Notification tokens and delivery credentials are encrypted in storage.</p>
       <p>Your Frigate sends notification content to the relay, which decrypts it to prepare a notification for Apple. This can include a title, message, camera name, event or review identifier, and a thumbnail reference. Your device fetches notification images directly from your Frigate or the image service referenced in the notification.</p>
       <p>Connection and delivery records, such as IP addresses, timestamps, delivery status and errors, support security and troubleshooting. This information is used to operate and protect the notification service, rather than for advertising or cross-app tracking.</p>
+    </section>
+    <section>
+      <h2>At-home rule</h2>
+      <p>This feature is optional. When you turn it on, the app uses iOS Location Services to tell whether you are home, and pauses or reduces notifications while you are home according to the rule you set. Setting your home location needs "While Using" location access; detecting arrivals and departures while the app is closed needs "Always" access.</p>
+      <p>Your home coordinates and radius stay on your device and are never sent to us. The app only reports "home" or "away", with how long that status stays valid, to our notification relay, together with the rule you chose (for example, which cameras still notify you at home, and how long before an outdated status returns to normal notifications). The relay uses this to decide whether to deliver a notification.</p>
+      <p>You can turn the rule off or remove your home location in the app at any time, or revoke location access in iOS Settings; notifications then follow your normal settings.</p>
     </section>
     <section>
       <h2>Keeping and removing information</h2>
